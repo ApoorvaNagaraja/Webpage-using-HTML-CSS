@@ -1,0 +1,419 @@
+<html>
+	<head>
+		<style>
+			body
+			{
+				margin:0;
+				padding:0;
+			}
+			a
+			{
+				text-decoration:none;
+			}
+
+			#heading1
+			{
+				font-size:14px;
+				position:relative;
+				font-family:Helvetica;
+				padding-left:137px;
+				padding-top: 10px;
+				margin:0;
+				color:#6E5E5E;
+			}
+
+			#heading2
+			{
+				font-size:54px;
+				position:relative;
+				top:-10px;
+				margin:0;
+				padding:0;
+				font-family:Helvetica;
+				text-align:center;
+				color:#BC9B5F;
+			}
+
+			hr
+			{
+				margin:0;
+				border: 0;
+				clear:both;
+				width:1060px;               
+				background-color:grey;
+			    height:1px;
+			    position:relative;
+			    bottom:15px;
+			    opacity:0.2;
+			}
+
+			#main
+			{
+				text-align:center;
+				margin:auto;
+				position:relative;
+				width:880px;
+			}
+
+			ul
+			{
+				margin-left:auto; 
+    			margin-right:auto;
+    			list-style-type:none;
+    			margin:0;
+    			padding:0;
+			}
+
+			li
+			{
+				float:left;
+				text-align: center;
+				position: relative;
+				width:20%;
+				bottom:10px;
+			}
+
+			li a
+			{
+				text-align: center;
+			} 
+
+			.hyperLink
+			{
+				color:#6E5E5E;
+				font-family:Helvetica;
+				font-size:15px;
+			}
+
+			.homeLink
+			{
+				color:#BC9B5F;
+				font-family:Helvetica;
+				font-size:15px;
+				position: relative;
+			}
+
+			#image6
+			{
+				background-image: url("http://cs-server.usc.edu:45678/hw/hw3/images/image6.jpg");
+				background-repeat: no-repeat;
+				width:1060px;	
+				height:650px;
+				margin:0;
+				background-position:-320px 40px;
+				background-size:1700px;
+				background-attachment: fixed;
+			}
+
+			#first
+			{
+				width:1060px; 
+				margin:auto;
+				position:relative;
+			}
+
+			#divLeft
+			{
+				float:left;
+				width:530px;
+			}
+			
+
+			#divRight
+			{
+				float:right;
+				width:530px;
+			}
+
+			#mainhead
+			{
+				font-family:Helvetica;
+				font-size:12px;
+				letter-spacing:1.5px;
+				color:#6F5E5E;
+			}
+
+			#title1
+			{
+				margin: 0;
+				font-family:serif;
+				font-size:35px;
+				color:#BC9B5F;
+				font-weight:550;
+			}
+
+			#sub1
+			{
+				font-size:16px;
+				font-family:Helvetica;
+				color:#6F5E5E;
+			}
+			
+
+			#title2
+			{
+				margin: 0;
+				font-family: serif;
+				font-size:35px;
+				color:#BC9B5F;
+				font-weight:550;
+
+			}
+
+			#sub2
+			{
+				font-size:16px;
+				font-family:Helvetica;
+				color:#6F5E5E;
+			}
+
+			#para1
+			{
+				padding-left:65px;
+			}
+
+			#image4
+			{
+				position:relative;
+				left:15px;
+			}
+
+			#image1
+			{
+				position:relative;
+				left:15px;
+			}
+
+			#para2
+			{
+				position:relative;
+				padding-left:25px;
+			}
+
+		    .hoverLink a:hover
+			{
+				color:dimgray;
+			}
+
+			.readColor {
+   				color:black;
+   				font-size:16px;
+   				font-family: Helvetica;
+   			}
+
+			#image7
+			{
+			    background-image: url("http://cs-server.usc.edu:45678/hw/hw3/images/image7.jpg");
+			    background-repeat: no-repeat;
+    			position:relative;
+			    width:929px;
+			    height:603px;
+			    background-position:center;
+			    margin-left: auto;
+			    margin-right: auto;
+			    
+			}			
+
+			#box 
+			{
+			    position:absolute; 
+			    width:385px;
+			    height:135px; 
+			    top:225px;
+			    left:270px;
+			    background: white; 
+			    color:black;
+			} 
+
+			.orderHover
+			{
+				text-align:center;
+				margin:0;
+			}
+
+			.order
+			{
+				font-size:34px;
+				font-family:serif;
+				color:#625E5E;
+				position: relative;
+				top:9px;
+			}
+
+			.orderHover a:hover
+			{
+				color:lightgray;
+			}
+
+			#text3
+			{
+				padding-left:25px;	
+			}
+
+
+			#title3
+			{
+				margin: 0;
+				font-size:35px;
+				font-style: italic;
+				text-align: center;
+				font-family:serif;
+				font-weight:550;
+				color:#BC9B5F;
+			}
+
+
+			#image5
+			{
+				background-image: url("http://cs-server.usc.edu:45678/hw/hw3/images/image5.jpg");
+				background-repeat: no-repeat;
+				width: 100%;
+			    height:600px;
+				background-attachment: fixed;
+				background-size: cover;
+  				position:relative;
+  				background-position: center;
+  			}
+
+			#para3
+			{
+				font-family:Helvetica;
+				letter-spacing:1px; 
+				font-size:13px;
+				text-align:center;
+				color:#6F5E5E;
+			}
+
+			#title4
+			{
+				margin:0;
+				position:relative;
+				font-size:12px;
+				font-family:Helvetica;
+				text-align:center;
+				position:relative;
+				top:8px;
+				letter-spacing:1px;
+				color:#6F5E5E;
+			}
+
+			#footer
+			{
+				position: absolute; 
+				width:100%;
+   				background-color:#BC9B5F;
+   				height:175px;
+   				left:0;
+   				bottom:0;
+   			}
+   			#text4
+   			{
+   				color: white;
+   				text-align:left;
+   				position:relative;
+   				font-family:Helvetica;
+   				font-size:12px;
+   				font-weight:600;
+   				float: right;
+   				top:5px;
+   				right:160px;
+   			}
+			
+
+		</style>
+	</head>
+
+	<body>
+		<p id="heading1"><br>332 Keawe Street <br> Hilo, Hawaii 96720</p>
+		<p id="heading2">T H Y M E</p>
+		<br><br>
+		<hr>
+		<div id="main">
+		<ul>
+			<li><a href="page2.html#home" target="_blank" class="homeLink">Home</a></li>
+			<li><a href="page2.html#our-vision" target="_blank" class="hyperLink">Our Vision</a></li>
+			<li><a href="page2.html#menu" target="_blank" class="hyperLink">Menu</a></li>
+			<li><a href="page2.html#order-online" target="_blank" class="hyperLink">Order Online</a></li>
+			<li><a href="page2.html#contact-us" target="_blank" class="hyperLink">Contact Us</a></li>
+		</ul>
+		<br>
+		</div>
+
+		<div id="image6">
+		</div>
+		
+	<div id="first">
+
+		<div id="divLeft">
+		<br><br><br><br><br><br>
+		<img src="http://cs-server.usc.edu:45678/hw/hw3/images/image3.jpg" alt="Image not available" style="padding-left:65px">
+		<br><br><br>
+		<img src="http://cs-server.usc.edu:45678/hw/hw3/images/image2.jpg" alt="Image not available" style="padding-left:65px">
+        <br><br><br><br><br>
+       		<div id="para1">
+				<p id="title2"><i>Freshest Island<br>food from local vendors</i></p>
+        		<p id="sub2"> Supporting local economy and the<br>
+        					  environment. Gluten-free items also<br>
+        					  available</p>
+        		<p class="hoverLink">
+        		<a href="page2.html#our-vision" target="_blank" class="readColor">Read More Here> </a> 
+    			</p>
+        	</div>
+        </div>
+
+        <div id="divRight">
+        <br>
+       		 <div id="para2">
+        		<p id="mainhead"> OUR RESTAURANT</p>
+        		<p id="title1"><i>Local fresh cuisine<br>for everyone</i></p>
+        		<p id="sub1"> Pineapples is a family-owned and operated<br>
+        		restaurant, dedicated to providing island fresh <br>
+        		cuisine to the east side of the Big Island. Our<br>
+        		restaurant is located in the historic Pineapple<br>
+        		Building, located in the heart of downtown Hilo.<br>
+        		</p>
+        		<p class=hoverLink>
+					<a href="page2.html#our-vision" target="_blank" class="readColor">Read More Here></a>
+				</p>
+				<br><br><br><br>
+			</div>
+			<img id="image1" src="http://cs-server.usc.edu:45678/hw/hw3/images/image1.jpg" alt="Image not available">
+       	    <br><br><br>
+			<img id="image4" src="http://cs-server.usc.edu:45678/hw/hw3/images/image4.jpg" alt="Image not available">
+			<br><br><br>
+        </div>
+   		
+		<p style="clear: both;">
+
+    	<div id="image7">
+     	 	<div id="box">
+     	 		<br><br>
+  		  	 	<p id="title4">GREENS JUST GOT FASTER!<br></p>
+  		   	 	<p class="orderHover">
+  		    	<a href="page2.html#order-online" target="_blank" class="order">Order Online</a></p>
+  			</div>
+      	</div>
+    </div>
+      
+
+       	<br><br>
+        <div id="text3">
+			<p id="para3">GoGreenMag.com</p>
+        	<p id="title3"><q>Loved it. We walked in around 6:30 without reservations <br>
+        	            and were seated.<br>
+        				The coconut crusted ono was on special and perfect.</q></p>
+        	<br><br>
+        </div>
+    
+
+       	<div id="image5">
+       		<div id="footer">
+	   			<br>
+  		 		<p id="text4">@2017 by Pineapples Hilo Restaurant<br>
+  		 		pineappleshilo.com</p>
+  		 		<br><br><br>
+	  		</div>
+		</div>
+</body>
+
+</html>
